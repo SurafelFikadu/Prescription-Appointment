@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import AppContextProvider from './context/AppContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename={`/Prescription-Appointment`}>
+  <BrowserRouter basename={`/Prescription-Appointment/`}>
     <AppContextProvider>
       <App />
     </AppContextProvider>
